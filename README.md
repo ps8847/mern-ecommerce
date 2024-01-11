@@ -46,17 +46,20 @@ An e-commerce shopping app built using the MERN (MongoDB, Express, React, Node.j
 
 1.  Clone the repository:
     ```bash
-    git clone 
-    cd Gentsshop
+    git clone https://github.com/ps8847/mern-ecommerce.git
     ```
 2.  Install dependencies:
     ```bash
+    cd backend
     npm install
+
+    After installing dependencies for backend run : npm i -g nodemon
+    
     cd frorntend
     npm install
     cd ..
     ```
-3.  Create a `config` folder inside the backend directory of the project and then create a `.env` file inside the `config` folder and add the following:
+3.  Create a `config` folder inside the backend directory of the project and then create a `config.env` file inside the `config` folder and add the following:
 
     ````bash
     PORT = 5000
@@ -87,6 +90,8 @@ An e-commerce shopping app built using the MERN (MongoDB, Express, React, Node.j
     ```bash
     cd backend &&
     npm start
+    cd frotend &&
+    npm start
     ```
 
   
@@ -94,5 +99,5 @@ An e-commerce shopping app built using the MERN (MongoDB, Express, React, Node.j
 
 | Contributor                                           |
 | ----------------------------------------------------- |
-| [shakir](https://github.com/shakirva)             |
+| [ps8847](https://github.com/ps8847)             |
 
